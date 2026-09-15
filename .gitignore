@@ -1,0 +1,45 @@
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Secrets / environment
+.env
+**/.env
+.env.*
+**/.env.*
+!.env.example
+!**/.env.example
+
+# Datasets
+datasets/
+**/datasets/
+
+# Generated outputs
+outputs/
+**/outputs/
+
+# Trained models / large artifacts
+*.pth
+*.pt
+*.onnx
+*.joblib
+*.pkl
+
+# IDE
+.vscode/
+**/.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# YOLO training runs
+**/ai_models/runs/
+**/runs/

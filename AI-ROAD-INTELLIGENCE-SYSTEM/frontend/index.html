@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tamil Nadu Road Intelligence - Prototype</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        body { margin: 0; font-family: Arial, sans-serif; }
+        #map { height: 100vh; width: 100vw; }
+        #header { 
+            position: absolute; top: 10px; left: 60px; z-index: 1000; 
+            background: white; padding: 12px 18px; border-radius: 6px; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3); 
+        }
+        select { padding: 5px 10px; font-size: 14px; margin-top: 5px; cursor: pointer; }
+        #stats { margin-top: 8px; font-size: 13px; color: #333; }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h3>TN Road Intelligence Portal</h3>
+        <label for="citySelect"><b>Select City:</b></label><br>
+        <select id="citySelect" onchange="switchCity(this.value)">
+            <option value="">-- Choose a City --</option>
+            <option value="trichy">Trichy (Tiruchirappalli)</option>
+        </select>
+        <div id="stats"></div>
+    </div>
+    <div id="map"></div>
+
+    <!-- Leaflet JS & jQuery -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        var map = L.map('map').setView([11.1271, 78.6569], 7);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        var currentLayer = null;
+
+        function switchCity(city) {
+            if (currentLayer) {
+                map.removeLayer(currentLayer);
+            }
+
+            if (city === "trichy") {
+                map.setView([10.8505, 78.7047], 13);
+                
+                // Load GeoJSON Road Network
+                $.getJSON("../datasets/Dataset_roads/trichy_road_data.geojson", function(data) {
+                    currentLayer = L.geoJSON(data, {
+                        style: { color: "#ff7800", weight: 3, opacity: 0.8 }
+                    }).addTo(map);
+                });
+
+                // Fetch AI Damage Analytics from your FastAPI Backend
+                $.get("http://127.0.0.1:8000/api/road-status/trichy", function(response) {
+                    $("#stats").html(`
+                        <br><b>AI Analytics:</b><br>
+                        Analyzed Roads: ${response.total_roads_analyzed}<br>
+                        Damaged Detected: <span style="color:red;">${response.damaged_roads_detected}</span><br>
+                        Status: <b>${response.status}</b>
+                    `);
+                });
+            } else {
+                $("#stats").html("");
+            }
+        }
+    </script>
+</body>
+</html>
