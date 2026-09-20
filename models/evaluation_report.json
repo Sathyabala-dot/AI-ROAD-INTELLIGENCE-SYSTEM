@@ -1,0 +1,54 @@
+{
+  "trained_on": "C:\\New folder\\SOP\\module2\\training\\..\\data\\raw\\sample_road_observations.csv",
+  "is_synthetic_data": true,
+  "n_train_rows": 386,
+  "n_test_rows": 96,
+  "target_source": "derived_formula (health_score_target.py)",
+  "metrics": {
+    "MAE": 2.4354,
+    "RMSE": 2.961,
+    "R2": 0.9596
+  },
+  "top_10_feature_importances": [
+    {
+      "feature": "num__days_since_maintenance",
+      "importance": 0.753
+    },
+    {
+      "feature": "num__damage_count",
+      "importance": 0.1186
+    },
+    {
+      "feature": "num__pothole_count",
+      "importance": 0.0504
+    },
+    {
+      "feature": "num__damage_severity",
+      "importance": 0.0349
+    },
+    {
+      "feature": "num__damaged_area_percent",
+      "importance": 0.0151
+    },
+    {
+      "feature": "num__damage_density",
+      "importance": 0.0069
+    },
+    {
+      "feature": "num__rainfall_mm",
+      "importance": 0.0025
+    },
+    {
+      "feature": "num__vehicle_count",
+      "importance": 0.0024
+    },
+    {
+      "feature": "num__confidence_score",
+      "importance": 0.0023
+    },
+    {
+      "feature": "num__temperature_c",
+      "importance": 0.002
+    }
+  ]
+}
