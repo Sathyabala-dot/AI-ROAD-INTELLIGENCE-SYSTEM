@@ -4,16 +4,12 @@ import cv2
 import numpy as np
 from pathlib import Path
 
-# PATHS
-
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 MODEL_PATH = PROJECT_ROOT / "models" / "unet" / "unet_pothole.pth"
 
-# Process ALL preprocessed images
 IMAGE_DIR = PROJECT_ROOT / "datasets" / "segmentation" / "images"
 
-# Output folders
 OUTPUT_DIR = PROJECT_ROOT / "outputs" / "unet_all"
 MASK_DIR = OUTPUT_DIR / "masks"
 OVERLAY_DIR = OUTPUT_DIR / "overlays"
@@ -46,7 +42,7 @@ class DoubleConv(nn.Module):
             nn.BatchNorm2d(out_channels),
             nn.ReLU(inplace=True)
         )
-
+ 
     def forward(self, x):
         return self.block(x)
 
@@ -55,7 +51,6 @@ class UNet(nn.Module):
     def __init__(self):
         super().__init__()
 
-        # Encoder
         self.enc1 = DoubleConv(3, 32)
         self.enc2 = DoubleConv(32, 64)
         self.enc3 = DoubleConv(64, 128)
@@ -63,10 +58,8 @@ class UNet(nn.Module):
 
         self.pool = nn.MaxPool2d(2)
 
-        # Bottleneck
         self.bottleneck = DoubleConv(256, 512)
 
-        # Decoder
         self.up4 = nn.ConvTranspose2d(512, 256, 2, stride=2)
         self.dec4 = DoubleConv(512, 256)
 
@@ -108,8 +101,6 @@ class UNet(nn.Module):
 
         return self.output(d1)
 
-# LOAD MODEL
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 print("=" * 60)
@@ -149,8 +140,6 @@ model.load_state_dict(state_dict)
 model.eval()
 
 print("U-Net model loaded successfully.")
-
-# GET ALL IMAGES
 
 image_extensions = [
     "*.jpg",
