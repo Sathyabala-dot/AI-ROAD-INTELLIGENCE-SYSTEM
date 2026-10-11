@@ -43,3 +43,17 @@ Thumbs.db
 # YOLO training runs
 **/ai_models/runs/
 **/runs/
+
+AI-ROAD-INTELLIGENCE-SYSTEM/datasets/
+AI-ROAD-INTELLIGENCE-SYSTEM/runs/
+AI-ROAD-INTELLIGENCE-SYSTEM/ai_models/runs/
+
+datasets/
+outputs/
+
+**/datasets/
+**/runs/
+**/outputs/
+
+*.pt
+*.pth
