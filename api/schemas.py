@@ -9,8 +9,7 @@ HTTP 422 errors automatically (FastAPI + Pydantic default behavior).
 from __future__ import annotations
 from typing import Optional
 from datetime import datetime
-from pydantic import BaseModel, Field, field_validator
-
+from pydantic import BaseModel, Field, ConfigDict, field_validator
 
 class RoadObservationRequest(BaseModel):
     """Input coming from Module 1 (or manual/API test input)."""
@@ -90,7 +89,12 @@ class RoadResponse(BaseModel):
     longitude: Optional[float] = None
 
 
+
+
 class HealthCheckResponse(BaseModel):
+    model_config = ConfigDict(
+        protected_namespaces=("model_validate", "model_dump")
+    )
     status: str
     model_loaded: bool
     database_connected: bool

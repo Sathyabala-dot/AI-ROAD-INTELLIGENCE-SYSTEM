@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>RoadSense AI | Road Intelligence Dashboard</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- Leaflet Map CSS -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <!-- Our CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="sidebar">
+
+    <!-- LOGO -->
+    <div class="brand">
+      <div class="brand-icon">
+        <i class="fa-solid fa-road"></i>
+      </div>
+
+      <div>
+        <h2>RoadSense</h2>
+        <span>AI Intelligence</span>
+      </div>
+    </div>
+
+
+    <!-- NAVIGATION -->
+    <nav class="nav-menu">
+
+      <a href="#dashboard" class="nav-link active">
+        <i class="fa-solid fa-table-columns"></i>
+        <span>Dashboard</span>
+      </a>
+
+      <a href="#map-section" class="nav-link">
+        <i class="fa-solid fa-map-location-dot"></i>
+        <span>Road Map</span>
+      </a>
+
+      <a href="#analytics" class="nav-link">
+        <i class="fa-solid fa-chart-line"></i>
+        <span>Analytics</span>
+      </a>
+
+      <a href="#maintenance" class="nav-link">
+        <i class="fa-solid fa-screwdriver-wrench"></i>
+        <span>Maintenance</span>
+      </a>
+
+    </nav>
+
+
+    <!-- SIDEBAR STATUS -->
+    <div class="sidebar-bottom">
+
+      <div class="system-status">
+        <span class="status-dot"></span>
+
+        <div>
+          <strong>System Online</strong>
+          <small>AI Engine Connected</small>
+        </div>
+      </div>
+
+      <p>© 2026 Team 07</p>
+
+    </div>
+
+  </aside>
+
+
+  <!-- ================= MAIN CONTENT ================= -->
+  <main class="main-content">
+
+
+    <!-- ================= TOP HEADER ================= -->
+    <header class="topbar" id="dashboard">
+
+      <div>
+        <p class="breadcrumb">
+          Tamil Nadu / Road Intelligence
+        </p>
+
+        <h1>Road Health Overview</h1>
+
+        <p class="subtitle">
+          AI-powered monitoring and predictive intelligence for safer roads.
+        </p>
+      </div>
+
+
+      <!-- HEADER ACTIONS -->
+      <div class="header-actions">
+
+        <!-- AUTOMATIC CURRENT DATE -->
+        <div class="date-box">
+          <i class="fa-regular fa-calendar"></i>
+          <span id="currentDate"></span>
+        </div>
+
+
+        <!-- REFRESH -->
+        <button
+          class="icon-button"
+          id="refreshBtn"
+          title="Refresh Dashboard"
+        >
+          <i class="fa-solid fa-rotate"></i>
+        </button>
+
+
+        <!-- ADMIN PROFILE -->
+        <div class="profile">
+
+          <div class="avatar">
+            <i class="fa-solid fa-user"></i>
+          </div>
+
+          <div class="profile-info">
+            <strong>Administrator</strong>
+            <span>Logged In</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </header>
+
+
+    <!-- ================= KPI CARDS ================= -->
+    <section class="stats-grid">
+
+
+      <!-- ROADS MONITORED -->
+      <div class="stat-card">
+
+        <div class="stat-icon blue">
+          <i class="fa-solid fa-road"></i>
+        </div>
+
+        <div class="stat-info">
+          <p>Roads Monitored</p>
+          <h2 id="roadsCount">0</h2>
+
+          <span class="positive">
+            <i class="fa-solid fa-arrow-up"></i>
+            12.5%
+          </span>
+        </div>
+
+      </div>
+
+
+      <!-- HEALTH SCORE -->
+      <div class="stat-card">
+
+        <div class="stat-icon green">
+          <i class="fa-solid fa-heart-pulse"></i>
+        </div>
+
+        <div class="stat-info">
+          <p>Average Health Score</p>
+
+          <h2>
+            <span id="healthScore">0</span>
+            <small>/100</small>
+          </h2>
+
+          <span class="positive">
+            Healthy Network
+          </span>
+        </div>
+
+      </div>
+
+
+      <!-- CRITICAL ISSUES -->
+      <div class="stat-card">
+
+        <div class="stat-icon orange">
+          <i class="fa-solid fa-triangle-exclamation"></i>
+        </div>
+
+        <div class="stat-info">
+          <p>Critical Issues</p>
+          <h2 id="criticalCount">0</h2>
+
+          <span class="negative">
+            Requires Attention
+          </span>
+        </div>
+
+      </div>
+
+
+      <!-- MAINTENANCE -->
+      <div class="stat-card">
+
+        <div class="stat-icon purple">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+        </div>
+
+        <div class="stat-info">
+          <p>Maintenance Priority</p>
+          <h2 id="maintenanceCount">0</h2>
+
+          <span class="warning">
+            High Priority
+          </span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= MAP SECTION ================= -->
+    <section class="dashboard-grid" id="map-section">
+
+
+      <!-- MAP CARD -->
+      <div class="map-card card">
+
+        <div class="section-header">
+
+          <div>
+            <h2>Live Road Intelligence Map</h2>
+
+            <p>
+              Interactive GIS visualization of road conditions
+            </p>
+          </div>
+
+
+          <!-- ROAD FILTER BUTTONS -->
+          <div class="map-controls">
+
+            <button
+              class="filter-btn active"
+              data-filter="all"
+            >
+              All Roads
+            </button>
+
+            <button
+              class="filter-btn"
+              data-filter="critical"
+            >
+              Critical
+            </button>
+
+            <button
+              class="filter-btn"
+              data-filter="moderate"
+            >
+              Medium
+            </button>
+
+            <button
+              class="filter-btn"
+              data-filter="healthy"
+            >
+              Healthy
+            </button>
+
+          </div>
+
+        </div>
+
+
+        <!-- LEAFLET MAP -->
+        <div id="map"></div>
+
+
+        <!-- MAP LEGEND -->
+        <div class="map-legend">
+
+          <span>
+            <i class="legend good"></i>
+            Healthy
+          </span>
+
+          <span>
+            <i class="legend moderate"></i>
+            Moderate
+          </span>
+
+          <span>
+            <i class="legend critical"></i>
+            Critical
+          </span>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= PRIORITY ALERTS ================= -->
+      <div class="alert-card card">
+
+        <div class="section-header">
+
+          <div>
+            <h2>Priority Alerts</h2>
+            <p>AI detected issues</p>
+          </div>
+
+          <i class="fa-solid fa-bell alert-bell"></i>
+
+        </div>
+
+
+        <!-- ALERTS FROM JAVASCRIPT -->
+        <div
+          class="alerts-list"
+          id="alertsList"
+        ></div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ANALYTICS ================= -->
+    <section
+      class="analytics-section"
+      id="analytics"
+    >
+
+      <div class="section-title">
+
+        <div>
+          <p class="eyebrow">
+            INTELLIGENCE ANALYTICS
+          </p>
+
+          <h2>Road Network Insights</h2>
+        </div>
+
+
+        <select id="chartPeriod">
+          <option value="7">Last 7 Days</option>
+          <option value="30">Last 30 Days</option>
+          <option value="90">Last 90 Days</option>
+        </select>
+
+      </div>
+
+
+      <!-- CHARTS -->
+      <div class="charts-grid">
+
+
+        <!-- HEALTH CHART -->
+        <div class="chart-card card">
+
+          <div class="chart-heading">
+            <h3>Road Health Trend</h3>
+
+            <p>
+              Average health score over time
+            </p>
+          </div>
+
+          <canvas id="healthChart"></canvas>
+
+        </div>
+
+
+        <!-- ISSUE CHART -->
+        <div class="chart-card card">
+
+          <div class="chart-heading">
+            <h3>Issue Distribution</h3>
+
+            <p>
+              Detected road conditions
+            </p>
+          </div>
+
+          <canvas id="issueChart"></canvas>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= MAINTENANCE ================= -->
+    <section
+      class="maintenance-section"
+      id="maintenance"
+    >
+
+      <div class="section-title">
+
+        <div>
+
+          <p class="eyebrow">
+            ACTION CENTER
+          </p>
+
+          <h2>Maintenance Priority</h2>
+
+          <p class="section-description">
+            AI-ranked road segments requiring maintenance attention.
+          </p>
+
+        </div>
+
+
+        <!-- DOWNLOAD REPORT -->
+        <button
+          class="primary-btn"
+          id="downloadReportBtn"
+        >
+          <i class="fa-solid fa-file-arrow-down"></i>
+          Download Report
+        </button>
+
+      </div>
+
+
+      <!-- MAINTENANCE TABLE -->
+      <div class="table-card card">
+
+        <div class="table-responsive">
+
+          <table>
+
+            <thead>
+
+              <tr>
+                <th>Road ID</th>
+                <th>Location</th>
+                <th>Health Score</th>
+                <th>Detected Issue</th>
+                <th>Risk Level</th>
+                <th>Priority</th>
+                <th>Action</th>
+              </tr>
+
+            </thead>
+
+
+            <!-- DATA ADDED BY JAVASCRIPT -->
+            <tbody id="maintenanceTable"></tbody>
+
+          </table>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= SCRIPTS ================= -->
+
+  <!-- LEAFLET -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- CHART.JS -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <!-- PROJECT JAVASCRIPT FILES -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
