@@ -1,0 +1,26 @@
+{
+  "numeric_features": [
+    "pothole_count",
+    "damage_count",
+    "damaged_area_percent",
+    "damage_severity",
+    "vehicle_count",
+    "confidence_score",
+    "road_length_km",
+    "road_age_years",
+    "lane_count",
+    "rainfall_mm",
+    "temperature_c",
+    "humidity_pct",
+    "days_since_maintenance",
+    "maintenance_count_last_year",
+    "historical_accident_count",
+    "damage_density",
+    "pothole_ratio"
+  ],
+  "categorical_features": [
+    "road_type",
+    "damage_type",
+    "weather_condition"
+  ]
+}
