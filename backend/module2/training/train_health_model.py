@@ -40,10 +40,10 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
-from validation import validate_dataframe
-from preprocessing import build_preprocessor, clean_dataframe
-from feature_engineering import engineer_features, select_available_features
-from health_score_target import compute_health_score
+from backend.module2.validation import validate_dataframe
+from backend.module2.preprocessing import build_preprocessor, clean_dataframe
+from backend.module2.feature_engineering import engineer_features, select_available_features
+from backend.module2.health_score_target import compute_health_score
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "raw", "sample_road_observations.csv")
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "models")

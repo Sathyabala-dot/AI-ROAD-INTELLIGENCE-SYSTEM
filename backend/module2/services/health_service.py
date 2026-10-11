@@ -13,7 +13,7 @@ import joblib
 import pandas as pd
 import numpy as np
 
-from health_score_target import classify_condition
+from backend.module2.health_score_target import classify_condition
 
 MODELS_DIR = os.path.join(os.path.dirname(__file__), "..", "models")
 MODEL_PATH = os.path.join(MODELS_DIR, "road_health_model.pkl")

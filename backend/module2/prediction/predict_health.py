@@ -16,7 +16,7 @@ import json
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from services.health_service import health_service
-from feature_engineering import engineer_features
+from backend.module2.feature_engineering import engineer_features
 import pandas as pd
 
 SAMPLE_OBSERVATION = {

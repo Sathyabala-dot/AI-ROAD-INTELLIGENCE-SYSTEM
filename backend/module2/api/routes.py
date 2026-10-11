@@ -51,7 +51,7 @@ from services.congestion_service import estimate_congestion
 from services.accident_service import estimate_accident_risk
 from services.maintenance_service import compute_maintenance_priority
 
-from feature_engineering import engineer_features
+from backend.module2.feature_engineering import engineer_features
 from database.connection import get_session, check_connection
 
 
