@@ -1,0 +1,3083 @@
+{
+  "total": 51,
+  "succeeded": 51,
+  "failed": 0,
+  "results": [
+    {
+      "filename": "pic-5-_jpg.rf.5fbe76ea8a76e35b41970ccb6f5e4730.jpg",
+      "status": "success",
+      "record_id": 6,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-B8B0B977E4D0",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 100,
+        "damaged_area_percent": 16.71,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 9.47,
+        "road_age_years": 31,
+        "lane_count": 6,
+        "rainfall_mm": 68.3,
+        "temperature_c": 41.6,
+        "humidity_pct": 47.8,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 2265,
+        "maintenance_count_last_year": 10,
+        "historical_accident_count": 16,
+        "latitude": 9.476951,
+        "longitude": 77.143875,
+        "timestamp": "2026-10-27T13:56:37.394597Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 68457,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-4-_jpg.rf.4db592c400a3bacb104e601c50c1fcd0.jpg",
+      "status": "success",
+      "record_id": 7,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-C86CF36E875E",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 3,
+        "damage_severity_percent": 96,
+        "damaged_area_percent": 6.73,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 24.76,
+        "road_age_years": 7,
+        "lane_count": 5,
+        "rainfall_mm": 14.8,
+        "temperature_c": 25.5,
+        "humidity_pct": 44,
+        "weather_condition": "clear",
+        "days_since_maintenance": 643,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 5,
+        "latitude": 10.858814,
+        "longitude": 78.268286,
+        "timestamp": "2026-10-27T13:56:37.659553Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 27564,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-5-_jpg.rf.ead443dd9f37ce2e29069e9049d804e7.jpg",
+      "status": "success",
+      "record_id": 8,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-DC235CC75FAF",
+        "road_name": "Demo Road",
+        "pothole_count": 5,
+        "damage_count": 5,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 78,
+        "damaged_area_percent": 0.02,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 3.02,
+        "road_age_years": 19,
+        "lane_count": 3,
+        "rainfall_mm": 10.8,
+        "temperature_c": 24.1,
+        "humidity_pct": 30.5,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 1848,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 3,
+        "latitude": 10.85948,
+        "longitude": 78.988166,
+        "timestamp": "2026-10-27T13:56:37.917939Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 95,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-5-_jpg.rf.f3d79095cd22dd76dc99c447f82e50d0.jpg",
+      "status": "success",
+      "record_id": 9,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-66234740F105",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 93,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 16.82,
+        "road_age_years": 7,
+        "lane_count": 4,
+        "rainfall_mm": 23.4,
+        "temperature_c": 24.5,
+        "humidity_pct": 35.6,
+        "weather_condition": "clear",
+        "days_since_maintenance": 961,
+        "maintenance_count_last_year": 3,
+        "historical_accident_count": 44,
+        "latitude": 13.234542,
+        "longitude": 76.680094,
+        "timestamp": "2026-10-27T13:56:38.151387Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-6-_jpg.rf.20fe5b2f0851cc97b06f4a9d68881330.jpg",
+      "status": "success",
+      "record_id": 10,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-3D79335032F0",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 3,
+        "damage_severity_percent": 74,
+        "damaged_area_percent": 3.16,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "urban",
+        "road_length_km": 5.55,
+        "road_age_years": 13,
+        "lane_count": 6,
+        "rainfall_mm": 48,
+        "temperature_c": 32.4,
+        "humidity_pct": 29.2,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 3382,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 46,
+        "latitude": 10.080503,
+        "longitude": 77.185059,
+        "timestamp": "2026-10-27T13:56:38.405229Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 12956,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-5-_jpg.rf.f3d79095cd22dd76dc99c447f82e50d0.jpg",
+      "status": "success",
+      "record_id": 11,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-AE4EA6032E74",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 74,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 14.24,
+        "road_age_years": 12,
+        "lane_count": 2,
+        "rainfall_mm": 67.9,
+        "temperature_c": 32.6,
+        "humidity_pct": 58.9,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 931,
+        "maintenance_count_last_year": 12,
+        "historical_accident_count": 18,
+        "latitude": 9.533864,
+        "longitude": 76.623014,
+        "timestamp": "2026-10-27T13:56:38.654106Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-6-_jpg.rf.20fe5b2f0851cc97b06f4a9d68881330.jpg",
+      "status": "success",
+      "record_id": 12,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-FD9485E615B0",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 3,
+        "damage_severity_percent": 90,
+        "damaged_area_percent": 3.16,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 11.68,
+        "road_age_years": 10,
+        "lane_count": 1,
+        "rainfall_mm": 98.2,
+        "temperature_c": 40.9,
+        "humidity_pct": 52.5,
+        "weather_condition": "humid",
+        "days_since_maintenance": 2522,
+        "maintenance_count_last_year": 10,
+        "historical_accident_count": 8,
+        "latitude": 8.892335,
+        "longitude": 79.484873,
+        "timestamp": "2026-10-27T13:56:38.909072Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 12956,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-6-_jpg.rf.cbd6e701a750684661efc0363bd607aa.jpg",
+      "status": "success",
+      "record_id": 13,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-8613E9005294",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 86,
+        "damaged_area_percent": 0.09,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "residential",
+        "road_length_km": 8.79,
+        "road_age_years": 19,
+        "lane_count": 1,
+        "rainfall_mm": 75.3,
+        "temperature_c": 20.3,
+        "humidity_pct": 99.3,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 1496,
+        "maintenance_count_last_year": 12,
+        "historical_accident_count": 7,
+        "latitude": 13.011781,
+        "longitude": 79.667877,
+        "timestamp": "2026-10-27T13:56:39.158423Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 380,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-6-_jpg.rf.dcd3fa3c9b81035067fbcb5e4998db50.jpg",
+      "status": "success",
+      "record_id": 14,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-9628869901D9",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 99,
+        "damaged_area_percent": 28.78,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 14.3,
+        "road_age_years": 12,
+        "lane_count": 6,
+        "rainfall_mm": 17.1,
+        "temperature_c": 34,
+        "humidity_pct": 23.3,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 3310,
+        "maintenance_count_last_year": 0,
+        "historical_accident_count": 8,
+        "latitude": 11.151089,
+        "longitude": 80.029322,
+        "timestamp": "2026-10-27T13:56:39.414674Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 117882,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-7-_jpg.rf.65c5742cced68822528a322492f2652d.jpg",
+      "status": "success",
+      "record_id": 15,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-FE070CA1EEC4",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 86,
+        "damaged_area_percent": 30.13,
+        "vehicle_count": 0,
+        "confidence_score": 0.3579,
+        "road_type": "highway",
+        "road_length_km": 3.87,
+        "road_age_years": 11,
+        "lane_count": 1,
+        "rainfall_mm": 23.2,
+        "temperature_c": 36.3,
+        "humidity_pct": 25.9,
+        "weather_condition": "humid",
+        "days_since_maintenance": 3642,
+        "maintenance_count_last_year": 11,
+        "historical_accident_count": 37,
+        "latitude": 10.692596,
+        "longitude": 76.641396,
+        "timestamp": "2026-10-27T13:56:39.663413Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3579,
+            "xyxy": [
+              29.8,
+              306.58,
+              530.42,
+              636.68
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 123401,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-7-_jpg.rf.75ec4611f8576a0f7706a3767986d5fa.jpg",
+      "status": "success",
+      "record_id": 16,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-6AC03FB17D06",
+        "road_name": "Demo Road",
+        "pothole_count": 6,
+        "damage_count": 6,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 79,
+        "damaged_area_percent": 43.54,
+        "vehicle_count": 0,
+        "confidence_score": 0.2935,
+        "road_type": "highway",
+        "road_length_km": 0.42,
+        "road_age_years": 8,
+        "lane_count": 3,
+        "rainfall_mm": 21.1,
+        "temperature_c": 31.7,
+        "humidity_pct": 70.9,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 2520,
+        "maintenance_count_last_year": 3,
+        "historical_accident_count": 19,
+        "latitude": 9.217736,
+        "longitude": 78.924476,
+        "timestamp": "2026-10-27T13:56:39.920867Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.2935,
+            "xyxy": [
+              20.37,
+              269.83,
+              558.17,
+              637.01
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 178336,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-7-_jpg.rf.7400b47430ca61631409d5ec433fbf79.jpg",
+      "status": "success",
+      "record_id": 17,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-48B6772DE78C",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 3,
+        "damage_severity_percent": 100,
+        "damaged_area_percent": 4.85,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 23.62,
+        "road_age_years": 20,
+        "lane_count": 4,
+        "rainfall_mm": 56.1,
+        "temperature_c": 37.7,
+        "humidity_pct": 88.2,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 807,
+        "maintenance_count_last_year": 9,
+        "historical_accident_count": 12,
+        "latitude": 9.975969,
+        "longitude": 76.203545,
+        "timestamp": "2026-10-27T13:56:40.254926Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 19855,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-8-_jpg.rf.22de640e2560bddb13ff49abfccbc8d6.jpg",
+      "status": "success",
+      "record_id": 18,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-AB58A0CF1ACD",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 77,
+        "damaged_area_percent": 0.1,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 22.05,
+        "road_age_years": 3,
+        "lane_count": 3,
+        "rainfall_mm": 73.3,
+        "temperature_c": 19.5,
+        "humidity_pct": 74.6,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 1135,
+        "maintenance_count_last_year": 11,
+        "historical_accident_count": 21,
+        "latitude": 13.071736,
+        "longitude": 77.066538,
+        "timestamp": "2026-10-27T13:56:40.542531Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 424,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-9-_jpg.rf.06f81aab8edc8a1beb3269f379c8e4a8.jpg",
+      "status": "success",
+      "record_id": 19,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-4897E040D43E",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 78,
+        "damaged_area_percent": 0.1,
+        "vehicle_count": 0,
+        "confidence_score": 0.5305,
+        "road_type": "residential",
+        "road_length_km": 23.87,
+        "road_age_years": 20,
+        "lane_count": 6,
+        "rainfall_mm": 31.5,
+        "temperature_c": 27,
+        "humidity_pct": 40.2,
+        "weather_condition": "humid",
+        "days_since_maintenance": 3594,
+        "maintenance_count_last_year": 3,
+        "historical_accident_count": 43,
+        "latitude": 10.955096,
+        "longitude": 78.098308,
+        "timestamp": "2026-10-27T13:56:40.829690Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.6111,
+            "xyxy": [
+              0,
+              397.79,
+              157.14,
+              588.01
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.45,
+            "xyxy": [
+              324.48,
+              301.78,
+              565.22,
+              496.95
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 402,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-17-_jpg.rf.0d172b6accedf4c52a3868d9b690d48b.jpg",
+      "status": "success",
+      "record_id": 20,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-2A4F2402214F",
+        "road_name": "Demo Road",
+        "pothole_count": 5,
+        "damage_count": 5,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 86,
+        "damaged_area_percent": 26.22,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "urban",
+        "road_length_km": 3.19,
+        "road_age_years": 27,
+        "lane_count": 1,
+        "rainfall_mm": 12.9,
+        "temperature_c": 20.3,
+        "humidity_pct": 60.1,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 2482,
+        "maintenance_count_last_year": 10,
+        "historical_accident_count": 28,
+        "latitude": 9.192739,
+        "longitude": 77.221234,
+        "timestamp": "2026-10-27T13:56:41.109689Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 107395,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-20-_jpg.rf.4b34591f154f226347c9ca9dfb33b2e4.jpg",
+      "status": "success",
+      "record_id": 21,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-C735E5B8C1DB",
+        "road_name": "Demo Road",
+        "pothole_count": 6,
+        "damage_count": 6,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 93,
+        "damaged_area_percent": 2.41,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 2.13,
+        "road_age_years": 34,
+        "lane_count": 5,
+        "rainfall_mm": 90.4,
+        "temperature_c": 20.3,
+        "humidity_pct": 66.7,
+        "weather_condition": "humid",
+        "days_since_maintenance": 1328,
+        "maintenance_count_last_year": 8,
+        "historical_accident_count": 3,
+        "latitude": 10.195299,
+        "longitude": 80.106579,
+        "timestamp": "2026-10-27T13:56:41.374952Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 9876,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-22-_jpg.rf.aec225ee7ab2b5f7791d6579b213600b.jpg",
+      "status": "success",
+      "record_id": 22,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-C969528A72E2",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 99,
+        "damaged_area_percent": 11.5,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 22.9,
+        "road_age_years": 6,
+        "lane_count": 1,
+        "rainfall_mm": 14.3,
+        "temperature_c": 33.4,
+        "humidity_pct": 31.9,
+        "weather_condition": "humid",
+        "days_since_maintenance": 436,
+        "maintenance_count_last_year": 2,
+        "historical_accident_count": 40,
+        "latitude": 8.317407,
+        "longitude": 76.806618,
+        "timestamp": "2026-10-27T13:56:41.637984Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 47109,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.f773855cfccc522535461bb0d18add8a.jpg",
+      "status": "success",
+      "record_id": 23,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-2CDD4251761A",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 80,
+        "damaged_area_percent": 11.26,
+        "vehicle_count": 0,
+        "confidence_score": 0.4554,
+        "road_type": "rural",
+        "road_length_km": 4.4,
+        "road_age_years": 20,
+        "lane_count": 2,
+        "rainfall_mm": 4.8,
+        "temperature_c": 35.4,
+        "humidity_pct": 95.1,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 3390,
+        "maintenance_count_last_year": 0,
+        "historical_accident_count": 16,
+        "latitude": 9.499426,
+        "longitude": 79.634727,
+        "timestamp": "2026-10-27T13:56:41.898716Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4759,
+            "xyxy": [
+              192.28,
+              401.9,
+              419.55,
+              632.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4348,
+            "xyxy": [
+              449.02,
+              351.07,
+              637.76,
+              611.02
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 46132,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-27-_jpg.rf.b4cd8eb26d6941eabfc17280f03bca69.jpg",
+      "status": "success",
+      "record_id": 24,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-883A6AB2D8B0",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 88,
+        "damaged_area_percent": 0.15,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 20.67,
+        "road_age_years": 6,
+        "lane_count": 3,
+        "rainfall_mm": 81.5,
+        "temperature_c": 16.7,
+        "humidity_pct": 49.7,
+        "weather_condition": "humid",
+        "days_since_maintenance": 522,
+        "maintenance_count_last_year": 0,
+        "historical_accident_count": 44,
+        "latitude": 11.126968,
+        "longitude": 77.363304,
+        "timestamp": "2026-10-27T13:56:42.182849Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 596,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.0940348a848c8c97f3fff9383cb3cdc8.jpg",
+      "status": "success",
+      "record_id": 25,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-3C2C66768555",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 84,
+        "damaged_area_percent": 10.35,
+        "vehicle_count": 0,
+        "confidence_score": 0.4479,
+        "road_type": "residential",
+        "road_length_km": 23.04,
+        "road_age_years": 2,
+        "lane_count": 3,
+        "rainfall_mm": 25.1,
+        "temperature_c": 40.9,
+        "humidity_pct": 35.2,
+        "weather_condition": "clear",
+        "days_since_maintenance": 2101,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 26,
+        "latitude": 12.497027,
+        "longitude": 80.145907,
+        "timestamp": "2026-10-27T13:56:42.452390Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.6095,
+            "xyxy": [
+              176.59,
+              400.3,
+              380.45,
+              617.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4009,
+            "xyxy": [
+              425.74,
+              380.82,
+              637.58,
+              633.87
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3334,
+            "xyxy": [
+              0.5,
+              360.27,
+              109.34,
+              492.69
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 42380,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-28-_jpg.rf.fe8316c392940899d9211be3305c9ab6.jpg",
+      "status": "success",
+      "record_id": 26,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-AB81341B46AE",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 85,
+        "damaged_area_percent": 24.94,
+        "vehicle_count": 0,
+        "confidence_score": 0.5376,
+        "road_type": "urban",
+        "road_length_km": 8.54,
+        "road_age_years": 28,
+        "lane_count": 4,
+        "rainfall_mm": 28.1,
+        "temperature_c": 21.8,
+        "humidity_pct": 64.9,
+        "weather_condition": "clear",
+        "days_since_maintenance": 3612,
+        "maintenance_count_last_year": 2,
+        "historical_accident_count": 33,
+        "latitude": 8.716352,
+        "longitude": 77.526372,
+        "timestamp": "2026-10-27T13:56:42.735958Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.5376,
+            "xyxy": [
+              321.65,
+              466.28,
+              548.89,
+              591.79
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 102174,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.0940348a848c8c97f3fff9383cb3cdc8.jpg",
+      "status": "success",
+      "record_id": 27,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-7F2C100210C3",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 80,
+        "damaged_area_percent": 10.35,
+        "vehicle_count": 0,
+        "confidence_score": 0.4479,
+        "road_type": "residential",
+        "road_length_km": 21.32,
+        "road_age_years": 22,
+        "lane_count": 6,
+        "rainfall_mm": 85.2,
+        "temperature_c": 34.5,
+        "humidity_pct": 28.7,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 2696,
+        "maintenance_count_last_year": 0,
+        "historical_accident_count": 15,
+        "latitude": 9.558672,
+        "longitude": 77.11671,
+        "timestamp": "2026-10-27T13:56:43.010043Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.6095,
+            "xyxy": [
+              176.59,
+              400.3,
+              380.45,
+              617.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4009,
+            "xyxy": [
+              425.74,
+              380.82,
+              637.58,
+              633.87
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3334,
+            "xyxy": [
+              0.5,
+              360.27,
+              109.34,
+              492.69
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 42380,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.0940348a848c8c97f3fff9383cb3cdc8.jpg",
+      "status": "success",
+      "record_id": 28,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-EC46FCE6A57C",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 74,
+        "damaged_area_percent": 10.35,
+        "vehicle_count": 0,
+        "confidence_score": 0.4479,
+        "road_type": "highway",
+        "road_length_km": 9.42,
+        "road_age_years": 9,
+        "lane_count": 6,
+        "rainfall_mm": 0.9,
+        "temperature_c": 39.8,
+        "humidity_pct": 81.3,
+        "weather_condition": "clear",
+        "days_since_maintenance": 2105,
+        "maintenance_count_last_year": 9,
+        "historical_accident_count": 44,
+        "latitude": 8.885477,
+        "longitude": 78.754777,
+        "timestamp": "2026-10-27T13:56:43.249892Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.6095,
+            "xyxy": [
+              176.59,
+              400.3,
+              380.45,
+              617.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4009,
+            "xyxy": [
+              425.74,
+              380.82,
+              637.58,
+              633.87
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3334,
+            "xyxy": [
+              0.5,
+              360.27,
+              109.34,
+              492.69
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 42380,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.f773855cfccc522535461bb0d18add8a.jpg",
+      "status": "success",
+      "record_id": 29,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-E98C4B253505",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 93,
+        "damaged_area_percent": 11.26,
+        "vehicle_count": 0,
+        "confidence_score": 0.4554,
+        "road_type": "rural",
+        "road_length_km": 5.82,
+        "road_age_years": 9,
+        "lane_count": 3,
+        "rainfall_mm": 36.3,
+        "temperature_c": 17.5,
+        "humidity_pct": 31.6,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 1684,
+        "maintenance_count_last_year": 5,
+        "historical_accident_count": 8,
+        "latitude": 11.936865,
+        "longitude": 79.506812,
+        "timestamp": "2026-10-27T13:56:43.497606Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4759,
+            "xyxy": [
+              192.28,
+              401.9,
+              419.55,
+              632.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4348,
+            "xyxy": [
+              449.02,
+              351.07,
+              637.76,
+              611.02
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 46132,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-34-_jpg.rf.40b75b0e55a33c21bc33826831384287.jpg",
+      "status": "success",
+      "record_id": 30,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-571BF9239279",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 3,
+        "damage_severity_percent": 86,
+        "damaged_area_percent": 5.36,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "residential",
+        "road_length_km": 10.72,
+        "road_age_years": 1,
+        "lane_count": 4,
+        "rainfall_mm": 64.2,
+        "temperature_c": 21.1,
+        "humidity_pct": 66.3,
+        "weather_condition": "humid",
+        "days_since_maintenance": 1630,
+        "maintenance_count_last_year": 11,
+        "historical_accident_count": 42,
+        "latitude": 8.101417,
+        "longitude": 79.256528,
+        "timestamp": "2026-10-27T13:56:43.737434Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 21974,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-36-_jpg.rf.13a668c4003681c4631508465eef5a9f.jpg",
+      "status": "success",
+      "record_id": 31,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-B15AD4922396",
+        "road_name": "Demo Road",
+        "pothole_count": 6,
+        "damage_count": 6,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 84,
+        "damaged_area_percent": 27.97,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 14.52,
+        "road_age_years": 20,
+        "lane_count": 5,
+        "rainfall_mm": 71.7,
+        "temperature_c": 23.8,
+        "humidity_pct": 37.1,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 3329,
+        "maintenance_count_last_year": 9,
+        "historical_accident_count": 34,
+        "latitude": 12.4735,
+        "longitude": 79.933144,
+        "timestamp": "2026-10-27T13:56:43.976526Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 114559,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-32-_jpg.rf.e9cd27fe43663beff58ee6e1f8f7f3d2.jpg",
+      "status": "success",
+      "record_id": 32,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-D8F02782E324",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 72,
+        "damaged_area_percent": 0.46,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 14.04,
+        "road_age_years": 10,
+        "lane_count": 3,
+        "rainfall_mm": 100,
+        "temperature_c": 32.5,
+        "humidity_pct": 54,
+        "weather_condition": "humid",
+        "days_since_maintenance": 1763,
+        "maintenance_count_last_year": 1,
+        "historical_accident_count": 38,
+        "latitude": 12.37495,
+        "longitude": 76.226111,
+        "timestamp": "2026-10-27T13:56:44.217375Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 1896,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-35-_jpg.rf.3a6cb54980b1b14196158b140c277034.jpg",
+      "status": "success",
+      "record_id": 33,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-BF805D4E4F88",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 78,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 2.95,
+        "road_age_years": 39,
+        "lane_count": 3,
+        "rainfall_mm": 90.9,
+        "temperature_c": 19.2,
+        "humidity_pct": 74.1,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 281,
+        "maintenance_count_last_year": 11,
+        "historical_accident_count": 47,
+        "latitude": 9.939332,
+        "longitude": 76.435641,
+        "timestamp": "2026-10-27T13:56:44.456354Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 19,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-39-_jpg.rf.99d4097fac96d5f035d066f05bd3dcac.jpg",
+      "status": "success",
+      "record_id": 34,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-2E25B5B63989",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 93,
+        "damaged_area_percent": 0.53,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 5.25,
+        "road_age_years": 28,
+        "lane_count": 4,
+        "rainfall_mm": 82.1,
+        "temperature_c": 22.3,
+        "humidity_pct": 88.9,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 3348,
+        "maintenance_count_last_year": 10,
+        "historical_accident_count": 17,
+        "latitude": 11.947517,
+        "longitude": 77.409439,
+        "timestamp": "2026-10-27T13:56:44.703425Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 2164,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-41-_jpg.rf.74ff92157ffacab71cc6f120cb5663a6.jpg",
+      "status": "success",
+      "record_id": 35,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-58EC8DB1AEB7",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 78,
+        "damaged_area_percent": 1.22,
+        "vehicle_count": 0,
+        "confidence_score": 0.3773,
+        "road_type": "rural",
+        "road_length_km": 16.38,
+        "road_age_years": 1,
+        "lane_count": 6,
+        "rainfall_mm": 95.3,
+        "temperature_c": 23.1,
+        "humidity_pct": 80.5,
+        "weather_condition": "clear",
+        "days_since_maintenance": 307,
+        "maintenance_count_last_year": 1,
+        "historical_accident_count": 28,
+        "latitude": 12.00428,
+        "longitude": 77.411914,
+        "timestamp": "2026-10-27T13:56:44.950521Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4835,
+            "xyxy": [
+              204.93,
+              240.8,
+              467.6,
+              442.52
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.2712,
+            "xyxy": [
+              295.65,
+              249.02,
+              473.53,
+              449.34
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 5004,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-38-_jpg.rf.dba8be87e1cad6fbbc6f68728f95a85d.jpg",
+      "status": "success",
+      "record_id": 36,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-5C0DC284A4BB",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 99,
+        "damaged_area_percent": 2.4,
+        "vehicle_count": 0,
+        "confidence_score": 0.2535,
+        "road_type": "rural",
+        "road_length_km": 12.96,
+        "road_age_years": 22,
+        "lane_count": 6,
+        "rainfall_mm": 75.2,
+        "temperature_c": 38.4,
+        "humidity_pct": 21.5,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 348,
+        "maintenance_count_last_year": 10,
+        "historical_accident_count": 17,
+        "latitude": 9.829866,
+        "longitude": 77.599047,
+        "timestamp": "2026-10-27T13:56:45.195288Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.2535,
+            "xyxy": [
+              92.44,
+              211.26,
+              508.64,
+              503.35
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 9833,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-44-_jpg.rf.a71dc55407736290b223f5ac71e8f714.jpg",
+      "status": "success",
+      "record_id": 37,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-77320ECFFDB9",
+        "road_name": "Demo Road",
+        "pothole_count": 5,
+        "damage_count": 5,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 95,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "urban",
+        "road_length_km": 10.53,
+        "road_age_years": 13,
+        "lane_count": 1,
+        "rainfall_mm": 86.7,
+        "temperature_c": 16,
+        "humidity_pct": 25.9,
+        "weather_condition": "clear",
+        "days_since_maintenance": 2343,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 19,
+        "latitude": 10.729925,
+        "longitude": 77.51829,
+        "timestamp": "2026-10-27T13:56:45.433510Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-52-_jpg.rf.d8822e3b6a7c8fe4c73543cd7d7ae9cd.jpg",
+      "status": "success",
+      "record_id": 38,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-19D6878609B9",
+        "road_name": "Demo Road",
+        "pothole_count": 7,
+        "damage_count": 7,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 78,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": 0.3074,
+        "road_type": "urban",
+        "road_length_km": 24.87,
+        "road_age_years": 28,
+        "lane_count": 3,
+        "rainfall_mm": 27.5,
+        "temperature_c": 19.2,
+        "humidity_pct": 35.7,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 1633,
+        "maintenance_count_last_year": 4,
+        "historical_accident_count": 12,
+        "latitude": 12.890415,
+        "longitude": 77.153284,
+        "timestamp": "2026-10-27T13:56:45.672508Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3074,
+            "xyxy": [
+              126.84,
+              335.54,
+              486.05,
+              558.86
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-47-_jpg.rf.07110750200ea396e69160ea5e20ce7c.jpg",
+      "status": "success",
+      "record_id": 39,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-98CE5395FFC8",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 96,
+        "damaged_area_percent": 1.33,
+        "vehicle_count": 0,
+        "confidence_score": 0.367,
+        "road_type": "urban",
+        "road_length_km": 19.22,
+        "road_age_years": 22,
+        "lane_count": 5,
+        "rainfall_mm": 42.5,
+        "temperature_c": 20.6,
+        "humidity_pct": 46.6,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 587,
+        "maintenance_count_last_year": 7,
+        "historical_accident_count": 18,
+        "latitude": 9.337029,
+        "longitude": 78.080285,
+        "timestamp": "2026-10-27T13:56:45.916638Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.367,
+            "xyxy": [
+              24.61,
+              464.82,
+              224.91,
+              638.12
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 5457,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-47-_jpg.rf.b5c407806790722e3104e1521d054f67.jpg",
+      "status": "success",
+      "record_id": 40,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-09AD4A50A825",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 96,
+        "damaged_area_percent": 1.21,
+        "vehicle_count": 0,
+        "confidence_score": 0.2787,
+        "road_type": "highway",
+        "road_length_km": 7.78,
+        "road_age_years": 11,
+        "lane_count": 5,
+        "rainfall_mm": 44,
+        "temperature_c": 23.2,
+        "humidity_pct": 99.3,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 3459,
+        "maintenance_count_last_year": 9,
+        "historical_accident_count": 15,
+        "latitude": 9.934976,
+        "longitude": 78.80068,
+        "timestamp": "2026-10-27T13:56:46.167081Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3048,
+            "xyxy": [
+              190.24,
+              305.03,
+              446.49,
+              562.56
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.2527,
+            "xyxy": [
+              416.58,
+              475.94,
+              635.26,
+              640
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 4966,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-40-_jpg.rf.c8d57f2324c265fbe81623987f86e3d8.jpg",
+      "status": "success",
+      "record_id": 41,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-687D12F7AE28",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 85,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 13.31,
+        "road_age_years": 28,
+        "lane_count": 1,
+        "rainfall_mm": 14.3,
+        "temperature_c": 28.6,
+        "humidity_pct": 76.2,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 2168,
+        "maintenance_count_last_year": 9,
+        "historical_accident_count": 17,
+        "latitude": 8.253293,
+        "longitude": 78.541122,
+        "timestamp": "2026-10-27T13:56:46.407679Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-28-_jpg.rf.fe8316c392940899d9211be3305c9ab6.jpg",
+      "status": "success",
+      "record_id": 42,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-FD9410BBB5FD",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 92,
+        "damaged_area_percent": 24.94,
+        "vehicle_count": 0,
+        "confidence_score": 0.5376,
+        "road_type": "rural",
+        "road_length_km": 3.73,
+        "road_age_years": 9,
+        "lane_count": 1,
+        "rainfall_mm": 15.9,
+        "temperature_c": 36.3,
+        "humidity_pct": 57.4,
+        "weather_condition": "humid",
+        "days_since_maintenance": 1889,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 50,
+        "latitude": 8.124925,
+        "longitude": 78.389658,
+        "timestamp": "2026-10-27T13:56:46.654739Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.5376,
+            "xyxy": [
+              321.65,
+              466.28,
+              548.89,
+              591.79
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 102174,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.0940348a848c8c97f3fff9383cb3cdc8.jpg",
+      "status": "success",
+      "record_id": 43,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-D355A096C5A7",
+        "road_name": "Demo Road",
+        "pothole_count": 6,
+        "damage_count": 6,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 77,
+        "damaged_area_percent": 10.35,
+        "vehicle_count": 0,
+        "confidence_score": 0.4479,
+        "road_type": "highway",
+        "road_length_km": 3.37,
+        "road_age_years": 22,
+        "lane_count": 3,
+        "rainfall_mm": 3.4,
+        "temperature_c": 33.9,
+        "humidity_pct": 20.4,
+        "weather_condition": "humid",
+        "days_since_maintenance": 3077,
+        "maintenance_count_last_year": 5,
+        "historical_accident_count": 41,
+        "latitude": 9.218893,
+        "longitude": 77.278617,
+        "timestamp": "2026-10-27T13:56:46.902379Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.6095,
+            "xyxy": [
+              176.59,
+              400.3,
+              380.45,
+              617.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4009,
+            "xyxy": [
+              425.74,
+              380.82,
+              637.58,
+              633.87
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3334,
+            "xyxy": [
+              0.5,
+              360.27,
+              109.34,
+              492.69
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 42380,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-38-_jpg.rf.f986b908d11e3ccfab5acb989bc9aa7b.jpg",
+      "status": "success",
+      "record_id": 44,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-116433450C0A",
+        "road_name": "Demo Road",
+        "pothole_count": 7,
+        "damage_count": 7,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 78,
+        "damaged_area_percent": 1.43,
+        "vehicle_count": 0,
+        "confidence_score": 0.3185,
+        "road_type": "highway",
+        "road_length_km": 13.09,
+        "road_age_years": 25,
+        "lane_count": 6,
+        "rainfall_mm": 52,
+        "temperature_c": 40.7,
+        "humidity_pct": 42.2,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 750,
+        "maintenance_count_last_year": 12,
+        "historical_accident_count": 13,
+        "latitude": 10.094499,
+        "longitude": 78.14074,
+        "timestamp": "2026-10-27T13:56:47.150845Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3185,
+            "xyxy": [
+              64.21,
+              191.14,
+              515.2,
+              538.6
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 5857,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-38-_jpg.rf.f986b908d11e3ccfab5acb989bc9aa7b.jpg",
+      "status": "success",
+      "record_id": 45,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-5E8E335EEB17",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 93,
+        "damaged_area_percent": 1.43,
+        "vehicle_count": 0,
+        "confidence_score": 0.3185,
+        "road_type": "urban",
+        "road_length_km": 13.65,
+        "road_age_years": 37,
+        "lane_count": 4,
+        "rainfall_mm": 21.7,
+        "temperature_c": 20.2,
+        "humidity_pct": 47.8,
+        "weather_condition": "humid",
+        "days_since_maintenance": 2421,
+        "maintenance_count_last_year": 1,
+        "historical_accident_count": 28,
+        "latitude": 8.229089,
+        "longitude": 77.644118,
+        "timestamp": "2026-10-27T13:56:47.389200Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3185,
+            "xyxy": [
+              64.21,
+              191.14,
+              515.2,
+              538.6
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 5857,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-32-_jpg.rf.17b7362dd7e828ab11f01d0a23db3a50.jpg",
+      "status": "success",
+      "record_id": 46,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-9EFA43CF9443",
+        "road_name": "Demo Road",
+        "pothole_count": 7,
+        "damage_count": 7,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 99,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": 0.2624,
+        "road_type": "urban",
+        "road_length_km": 12.92,
+        "road_age_years": 23,
+        "lane_count": 1,
+        "rainfall_mm": 2.4,
+        "temperature_c": 18.4,
+        "humidity_pct": 34.4,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 3632,
+        "maintenance_count_last_year": 7,
+        "historical_accident_count": 43,
+        "latitude": 12.617672,
+        "longitude": 78.265588,
+        "timestamp": "2026-10-27T13:56:47.649506Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.2624,
+            "xyxy": [
+              118.05,
+              282.8,
+              322.17,
+              629.65
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-32-_jpg.rf.e9cd27fe43663beff58ee6e1f8f7f3d2.jpg",
+      "status": "success",
+      "record_id": 47,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-7E65E6C2E610",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 77,
+        "damaged_area_percent": 0.46,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 10.84,
+        "road_age_years": 1,
+        "lane_count": 5,
+        "rainfall_mm": 5.5,
+        "temperature_c": 20.2,
+        "humidity_pct": 85.9,
+        "weather_condition": "clear",
+        "days_since_maintenance": 916,
+        "maintenance_count_last_year": 8,
+        "historical_accident_count": 35,
+        "latitude": 12.423935,
+        "longitude": 76.937087,
+        "timestamp": "2026-10-27T13:56:47.891198Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 1896,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-39-_jpg.rf.99d4097fac96d5f035d066f05bd3dcac.jpg",
+      "status": "success",
+      "record_id": 48,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-0C73E341E412",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 77,
+        "damaged_area_percent": 0.53,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 18.64,
+        "road_age_years": 2,
+        "lane_count": 5,
+        "rainfall_mm": 12.1,
+        "temperature_c": 22.6,
+        "humidity_pct": 82.8,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 1146,
+        "maintenance_count_last_year": 10,
+        "historical_accident_count": 20,
+        "latitude": 11.982339,
+        "longitude": 78.258734,
+        "timestamp": "2026-10-27T13:56:48.143222Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 2164,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.0940348a848c8c97f3fff9383cb3cdc8.jpg",
+      "status": "success",
+      "record_id": 49,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-EAD40B6CF07F",
+        "road_name": "Demo Road",
+        "pothole_count": 10,
+        "damage_count": 10,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 92,
+        "damaged_area_percent": 10.35,
+        "vehicle_count": 0,
+        "confidence_score": 0.4479,
+        "road_type": "residential",
+        "road_length_km": 24.26,
+        "road_age_years": 14,
+        "lane_count": 4,
+        "rainfall_mm": 85.9,
+        "temperature_c": 17.2,
+        "humidity_pct": 41.3,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 2679,
+        "maintenance_count_last_year": 6,
+        "historical_accident_count": 38,
+        "latitude": 8.455151,
+        "longitude": 77.233748,
+        "timestamp": "2026-10-27T13:56:48.384877Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.6095,
+            "xyxy": [
+              176.59,
+              400.3,
+              380.45,
+              617.65
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4009,
+            "xyxy": [
+              425.74,
+              380.82,
+              637.58,
+              633.87
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3334,
+            "xyxy": [
+              0.5,
+              360.27,
+              109.34,
+              492.69
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 42380,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-41-_jpg.rf.74ff92157ffacab71cc6f120cb5663a6.jpg",
+      "status": "success",
+      "record_id": 50,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-B59D6F47848A",
+        "road_name": "Demo Road",
+        "pothole_count": 4,
+        "damage_count": 4,
+        "damage_type": "pothole",
+        "damage_severity": 2,
+        "damage_severity_percent": 84,
+        "damaged_area_percent": 1.22,
+        "vehicle_count": 0,
+        "confidence_score": 0.3773,
+        "road_type": "residential",
+        "road_length_km": 1.65,
+        "road_age_years": 5,
+        "lane_count": 4,
+        "rainfall_mm": 10.7,
+        "temperature_c": 27.1,
+        "humidity_pct": 94.4,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 1961,
+        "maintenance_count_last_year": 4,
+        "historical_accident_count": 24,
+        "latitude": 10.870298,
+        "longitude": 78.496524,
+        "timestamp": "2026-10-27T13:56:48.626683Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4835,
+            "xyxy": [
+              204.93,
+              240.8,
+              467.6,
+              442.52
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.2712,
+            "xyxy": [
+              295.65,
+              249.02,
+              473.53,
+              449.34
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 5004,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-31-_jpg.rf.1174887817ec51f80c793c0f75927824.jpg",
+      "status": "success",
+      "record_id": 51,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-CAAFF509D6BA",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 4,
+        "damage_severity_percent": 84,
+        "damaged_area_percent": 7.13,
+        "vehicle_count": 0,
+        "confidence_score": 0.4392,
+        "road_type": "urban",
+        "road_length_km": 9.81,
+        "road_age_years": 6,
+        "lane_count": 4,
+        "rainfall_mm": 76.1,
+        "temperature_c": 38.4,
+        "humidity_pct": 69.4,
+        "weather_condition": "humid",
+        "days_since_maintenance": 2005,
+        "maintenance_count_last_year": 4,
+        "historical_accident_count": 8,
+        "latitude": 9.279048,
+        "longitude": 78.893992,
+        "timestamp": "2026-10-27T13:56:48.871614Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.5028,
+            "xyxy": [
+              181.39,
+              415.36,
+              405.03,
+              626.76
+            ]
+          },
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3755,
+            "xyxy": [
+              445.72,
+              369.91,
+              634.83,
+              603.21
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 29191,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-37-_jpg.rf.141623e970a3b93aa37e180a3efb32b8.jpg",
+      "status": "success",
+      "record_id": 52,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-E3B47C6582E4",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 85,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": 0.4416,
+        "road_type": "rural",
+        "road_length_km": 16.04,
+        "road_age_years": 20,
+        "lane_count": 1,
+        "rainfall_mm": 10.6,
+        "temperature_c": 26.5,
+        "humidity_pct": 59.2,
+        "weather_condition": "humid",
+        "days_since_maintenance": 1775,
+        "maintenance_count_last_year": 3,
+        "historical_accident_count": 4,
+        "latitude": 9.169769,
+        "longitude": 79.743888,
+        "timestamp": "2026-10-27T13:56:49.102705Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.4416,
+            "xyxy": [
+              215.92,
+              424.88,
+              401.88,
+              552.13
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-34-_jpg.rf.40b75b0e55a33c21bc33826831384287.jpg",
+      "status": "success",
+      "record_id": 53,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-AFD18D5E88CD",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 3,
+        "damage_severity_percent": 75,
+        "damaged_area_percent": 5.36,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "residential",
+        "road_length_km": 10.51,
+        "road_age_years": 22,
+        "lane_count": 2,
+        "rainfall_mm": 18.9,
+        "temperature_c": 37.5,
+        "humidity_pct": 68.1,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 2784,
+        "maintenance_count_last_year": 8,
+        "historical_accident_count": 9,
+        "latitude": 8.180779,
+        "longitude": 78.509583,
+        "timestamp": "2026-10-27T13:56:49.341426Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 21974,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-43-_jpg.rf.1e8c9b6d903b795ead837d1334fbe4ff.jpg",
+      "status": "success",
+      "record_id": 54,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-E6B03FD59153",
+        "road_name": "Demo Road",
+        "pothole_count": 6,
+        "damage_count": 6,
+        "damage_type": "pothole",
+        "damage_severity": 1,
+        "damage_severity_percent": 88,
+        "damaged_area_percent": 0.15,
+        "vehicle_count": 0,
+        "confidence_score": 0.3817,
+        "road_type": "rural",
+        "road_length_km": 17.53,
+        "road_age_years": 31,
+        "lane_count": 6,
+        "rainfall_mm": 35.8,
+        "temperature_c": 22.7,
+        "humidity_pct": 38.6,
+        "weather_condition": "humid",
+        "days_since_maintenance": 2354,
+        "maintenance_count_last_year": 12,
+        "historical_accident_count": 3,
+        "latitude": 12.959851,
+        "longitude": 78.983864,
+        "timestamp": "2026-10-27T13:56:49.574808Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [
+          {
+            "class_id": 0,
+            "class_name": "pothole",
+            "confidence": 0.3817,
+            "xyxy": [
+              144.2,
+              308.15,
+              635.47,
+              629.46
+            ]
+          }
+        ],
+        "segmentation": {
+          "pothole_pixels": 623,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-36-_jpg.rf.13a668c4003681c4631508465eef5a9f.jpg",
+      "status": "success",
+      "record_id": 55,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-624E151847B0",
+        "road_name": "Demo Road",
+        "pothole_count": 9,
+        "damage_count": 9,
+        "damage_type": "pothole",
+        "damage_severity": 5,
+        "damage_severity_percent": 79,
+        "damaged_area_percent": 27.97,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "highway",
+        "road_length_km": 6.69,
+        "road_age_years": 16,
+        "lane_count": 5,
+        "rainfall_mm": 34.5,
+        "temperature_c": 37.2,
+        "humidity_pct": 72.4,
+        "weather_condition": "light_rain",
+        "days_since_maintenance": 2001,
+        "maintenance_count_last_year": 8,
+        "historical_accident_count": 20,
+        "latitude": 12.831226,
+        "longitude": 77.466271,
+        "timestamp": "2026-10-27T13:56:49.918904Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 114559,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    },
+    {
+      "filename": "pic-40-_jpg.rf.c8d57f2324c265fbe81623987f86e3d8.jpg",
+      "status": "success",
+      "record_id": 56,
+      "road_id_generated": true,
+      "record": {
+        "road_id": "ROAD-366D3820D510",
+        "road_name": "Demo Road",
+        "pothole_count": 8,
+        "damage_count": 8,
+        "damage_type": "pothole",
+        "damage_severity": 0,
+        "damage_severity_percent": 96,
+        "damaged_area_percent": 0,
+        "vehicle_count": 0,
+        "confidence_score": null,
+        "road_type": "rural",
+        "road_length_km": 22.17,
+        "road_age_years": 4,
+        "lane_count": 5,
+        "rainfall_mm": 97.6,
+        "temperature_c": 26.3,
+        "humidity_pct": 64.5,
+        "weather_condition": "cloudy",
+        "days_since_maintenance": 1047,
+        "maintenance_count_last_year": 3,
+        "historical_accident_count": 47,
+        "latitude": 8.839958,
+        "longitude": 79.925822,
+        "timestamp": "2026-10-27T13:56:50.184444Z",
+        "metadata_is_synthetic": true,
+        "prediction_is_synthetic": true
+      },
+      "metadata_source": "synthetic_demo",
+      "prediction_source": "synthetic_demo",
+      "synthetic_prediction_fields": [
+        "pothole_count",
+        "damage_count",
+        "damage_type",
+        "damage_severity_percent"
+      ],
+      "model_details": {
+        "boxes": [],
+        "segmentation": {
+          "pothole_pixels": 0,
+          "threshold": 0.55
+        },
+        "image_width": 640,
+        "image_height": 640
+      }
+    }
+  ]
+}
